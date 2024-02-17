@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debmalya_Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <div class="left">Debmalya's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li> <a href="">Home</a></li>
+                <li onclick="scroll()"><a href="">About</a</li>
+                <li ><a href="">Services</a></li>
+                <li onclick="alert_1()"><a href="">Projects</a></li>
+                <li><a href="">Contact Me</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <main>
+        <section class="sec">
+            <div class="left_sec">
+
+                <div>Hello,my name is <span id="purple">Debmalya Pan</span></div>
+                <span> And I am a </span>
+                <span id="element"></span>
+                <div class="btn">
+                    <input type="button" class="btn-1" value="Download CV" onclick="redirect_2();">
+                    <input type="button" class="btn-1" value="GitHUb" onclick="redirect();">
+
+                </div>
+            </div>
+
+            <div class="right_sec">
+                <img src="img-4.jpg" alt="img">
+            </div>
+        </section>
+        <div class="separation-1"></div>
+
+        <section id="sec-2" class="sec_2">
+            <!-- <div class="line"></div> -->
+            <p>What I have done so far</p>
+            <h1>Work Experience</h1>
+            <div class="line">
+                <div class="virtical c">
+                    <div class="skill">C
+                    </div>
+                    <div class="dis">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nihil ad aliquam in?
+                        Dolorum eos fugiat provident blanditiis assumenda atque vel! Cumque reiciendis dicta vero?</div>
+                    <img src="c.png" alt="">
+                </div>
+                <div class="virtical dsa">
+                    <div class="skill">DSA
+                    </div>
+                    <div class="dis">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nihil ad aliquam in?
+                        Dolorum eos fugiat provident blanditiis assumenda atque vel! Cumque reiciendis dicta vero?</div>
+                    <img src="dsa_2.png" alt="">
+                </div>
+                <div class="virtical html">
+                    <div class="skill">HTML
+                    </div>
+                    <div class="dis">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nihil ad aliquam in?
+                        Dolorum eos fugiat provident blanditiis assumenda atque vel! Cumque reiciendis dicta vero?</div>
+                    <img src="html.png" alt="">
+                </div>
+                <div class="virtical css">
+                    <div class="skill">CSS
+                    </div>
+                    <div class="dis">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nihil ad aliquam in?
+                        Dolorum eos fugiat provident blanditiis assumenda atque vel! Cumque reiciendis dicta vero?</div>
+                    <img src="css.png" alt="">
+                </div>
+                <div class="virtical js">
+                    <div class="skill">JS
+                    </div>
+                    <div class="dis">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At nihil ad aliquam in?
+                        Dolorum eos fugiat provident blanditiis assumenda atque vel! Cumque reiciendis dicta vero?</div>
+                    <img src="js.png" alt="">
+                </div>
+
+            </div>
+
+        </section>
+        <div class="separation-1"></div>
+    </main>
+
+    <footer>
+        <div class="detail">
+            <div class="detail_2">
+                <h3>Developer Portfolio</h3>
+            </div>
+            <div class="detail_3">
+                <div class="d_1">
+                    <ul>
+                        <li> Home </li>
+                        <li> About </li>
+                        <li> Services </li>
+
+                    </ul>
+                </div>
+                
+                <div class="d_2">
+                    <ul>
+                        <li onclick="alert_1()">Projects</li>
+                        <li >Contact Me  </li>
+                        <li onclick="alert_2()"> More </li>
+                    </ul>
+                </div>
+            </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['C/C++ Developer', 'Fontentend Developer'],
+            typeSpeed: 80,
+        });
+    </script>
+</body>
+
+</html>
