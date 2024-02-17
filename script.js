@@ -1,5 +1,5 @@
 function redirect() {
-    window.location = "https://www.youtube.com/"
+    window.location = "https://github.com/Deb006P"
 }
 function redirect_2() {
     window.location = "css certificate.pdf"
